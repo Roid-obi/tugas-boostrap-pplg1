@@ -1,0 +1,43 @@
+.imgnav {
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+nav {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 2;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  color: white;
+  background-image: url(mountains-1587287.jpg);
+  background-size: cover;
+  background-position: left;
+}
+#project {
+  background-color: black;
+  color: white;
+}
+
+.col-md-4 p {
+  color: black;
+}
+
+.card img {
+  width: 100%; /* lebar crop gambar yg diinginkan */
+
+  height: 40vh; /* tinggi crop gambar yg diinginkan */
+
+  object-fit: cover; /*agar tampilan gambar tidak rusak*/
+
+  object-position: 50% 10%; /* menentukan view crop image yg diinginkan */
+}
+
+.btn btn-primary {
+  background-color: black;
+}
+footer {
+  color: white;
+  background-color: black;
+}
